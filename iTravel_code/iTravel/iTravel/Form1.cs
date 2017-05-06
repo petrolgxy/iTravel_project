@@ -172,6 +172,12 @@ namespace iTravel
         private void axMapControl2_OnMouseDown(object sender, IMapControlEvents2_OnMouseDownEvent e)
         {
             getSelectedFeature();
+        }
+
+        private void buttonItem26_Click(object sender, EventArgs e)
+        {
+            personalized person = new personalized();
+            person.Show();
         }  
     }
 }
